@@ -10,6 +10,16 @@ function clearDisplay(){
 } 
 
 function calculate() {
-    display.value = eval(display.value);
+    try{
+        let mathProblem = display.value;
+
+        mathProblem = mathProblem.replace(/\b0+(?=\d)/g, '')
+
+        display.value = eval(mathProblem);
+    }
+
+    catch(error){
+        display.value = "Error";
+    }
 }
 
