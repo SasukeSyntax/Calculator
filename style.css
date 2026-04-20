@@ -8,8 +8,10 @@ body {
 
 #calculator {
     background-color: hsl(0, 0%, 20%);
-    border-radius: 2rem;
+    border-radius: 2rem; 
     max-width: 500px;
+    width: 90vh;
+    margin: 0 auto;
     overflow: hidden;
     
 }
@@ -20,6 +22,7 @@ body {
     font-size: 5rem;
     border: none;
     color: whitesmoke;
+    font-size: clamp(20px, 6vh, 32px);
 }
 
 input {
@@ -42,4 +45,8 @@ button {
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    font-size: clamp(14px, 4vh, 40px);
+    padding: clamp(8px, 2vh, 14px);
 } 
+
+/* ohvwohwh */
