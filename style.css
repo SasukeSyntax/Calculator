@@ -8,7 +8,7 @@ body {
 
 #calculator {
     background-color: hsl(0, 0%, 20%);
-    border-radius: 2rem;
+    border-radius: 2rem; 
     max-width: 500px;
     width: 90vh;
     margin: 0 auto;
@@ -48,3 +48,5 @@ button {
     font-size: clamp(14px, 4vh, 40px);
     padding: clamp(8px, 2vh, 14px);
 } 
+
+/* ohvwohwh */
