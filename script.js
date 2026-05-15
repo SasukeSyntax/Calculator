@@ -1,7 +1,7 @@
 
 const display = document.getElementById("display");
 
-function appendToDisplay(input){
+function showUrSelfBih(input){
     display.value += input;
 }
 
@@ -19,7 +19,7 @@ function calculate() {
     }
 
     catch(error){
-        display.value = "Error";
+        display.value = "You Suck";
     }
 }
 
